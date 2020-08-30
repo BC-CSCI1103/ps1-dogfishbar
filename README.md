@@ -10,7 +10,7 @@ Robert Muller - Boston College
 
 ### (8 Points)
 
-### Due Friday September 4, 2020, Midnight
+### Due Wednesday September 9, 2020, Midnight
 
 The purpose of this problem set is to help you with your system setup and with breaking the ice with coding in OCaml. There are 2 parts: *system setup* and then *four simple coding problems*.
 
