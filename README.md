@@ -251,6 +251,10 @@ The basic idea is to make use of the Windows Subsystem for Linux (WSL) and Micro
 
 ### 1. Enable Windows Subsystem for Linux (WSL) and Install Ubuntu
 
+We'll follow a short tutorial for enabling WSL and installing Ubuntu under Windows 10.
+
+> **Heads up! When you install Ubuntu from the Microsoft Store, we require version 20.04.1 rather than version 18.**
+
 Follow the instructions in the [Solarian Programmer WSL Tutorial](https://solarianprogrammer.com/2017/04/15/install-wsl-windows-subsystem-for-linux/) to enable WSL on Windows 10 and to install the Ubuntu version of the Linux operating system. 
 
 >  Heads up! Don’t forget the password for the Linux account you’ve just created: you'll need it to install some software. 
