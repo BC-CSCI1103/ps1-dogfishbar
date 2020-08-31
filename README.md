@@ -228,7 +228,7 @@ The last step is setting up the code editor.
    
    Introduce an error in this code by deleting the quotation mark at the end of line 8. You should see
    
-   ![merlin](./img/merlin.png)
+   ![merlin](./img/merlinAtom.png)
    
    the red dot on line 8 indicates that the OCaml editor support packages have found a problem with your code. Generally speaking, you'll want to make sure that your Atom editor window is free of these errors (i.e., no red dots!). If you restore the quotation mark the red dot will disappear. 
    
@@ -263,11 +263,11 @@ At this point, you should be able to run a “bare-bones” Ubuntu Linux termina
 
 ```bash
 $ pwd
-/Users/muller
+/home/muller
 $
 ```
 
-This shows that my Ubuntu home directory is `/Users/muller`. A string of this form is called a *file path*. My Windows home directory is elsewhere, back to that in a minute. One can see what files and directories are contained within a directory using the *list* command `ls`:
+This shows that my Ubuntu home directory is `/home/muller`. A string of this form is called a *file path*. My Windows home directory is elsewhere, back to that in a minute. One can see what files and directories are contained within a directory using the *list* command `ls`:
 
 ```bash
 $ ls
@@ -280,13 +280,13 @@ When a user is interacting with the operating system via a command shell, in add
 ```bash
 $ cd
 $ pwd
-/Users/muller         # Your Ubuntu username will appear here rather than muller
+/home/muller         # Your Ubuntu username will appear here rather than muller
 $ cd Downloads
 $ pwd
-/Users/muller/Downloads
+/home/muller/Downloads
 $ cd ..
 $ pwd
-/Users/muller
+/home/muller
 ```
 
 Note that the command `cd` sets the current working directory to the home directory and the command `cd ..` moves up the tree one level.
@@ -295,7 +295,7 @@ You can access your Windows home directory from WSL Linux via the path `/mnt/c/U
 
  ```bash
 $ cd
-$ ln -s /mnt/c/Users/YOUR_WINDOWS_NAME/ windows
+$ ln -s /mnt/c/home/YOUR_WINDOWS_NAME/ windows
  ```
 
 Now you can navigate to you Windows home folder via 
@@ -320,7 +320,7 @@ We'll make a directory `csci1103` to house your work in this course.
    ```bash
    $ cd
    $ pwd
-   /Users/muller          
+   /home/muller          
    $ mkdir csci1103       
    ```
 
