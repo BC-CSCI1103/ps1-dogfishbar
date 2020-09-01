@@ -156,7 +156,11 @@ We'll come back to the discussion of the course workflow after we've set up the 
    $ ./configure
    ```
 
-8. Test your OCaml setup. Type
+8. Install the [XQuartz](https://www.xquartz.org/) X-Window server.
+
+9. Reboot your computer.
+
+10. Test your OCaml setup. Type
 
    ```bash
    $ cd
