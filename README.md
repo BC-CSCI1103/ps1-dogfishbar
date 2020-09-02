@@ -299,7 +299,7 @@ You can access your Windows home directory from WSL Linux via the path `/mnt/c/U
 
  ```bash
 $ cd
-$ ln -s /mnt/c/home/YOUR_WINDOWS_NAME/ windows
+$ ln -s /mnt/c/Users/YOUR_WINDOWS_NAME/ windows
  ```
 
 Now you can navigate to you Windows home folder via 
