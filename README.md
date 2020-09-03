@@ -226,7 +226,7 @@ The last step is setting up the code editor.
    The tab labeled `main.ml` is displaying OCaml code. This code can be executed by using OCaml's *build manager* `dune`. In the Unix command shell, type
 
    ```bash
-cd
+   cd
    cd csci1103/setup/test/hello/src
    dune exec bin/main.exe
    ```
